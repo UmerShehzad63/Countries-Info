@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Result</title>
+</head>
+<body>
+    <img src="<%= data.flags.svg %>" class="flag-img">
+    <h2><%= data.name.common %></h2>
+    <div class="wrapper">
+        <h4>Capital:</h4>
+        <span><%= data.capital[0] %></span>
+    </div>
+    <div class="wrapper">
+        <h4>Continent:</h4>
+        <span><%= data.continents[0] %></span>
+    </div>
+    <div class="wrapper">
+        <h4>Population:</h4>
+        <span><%= data.population %></span>
+    </div>
+    <!-- Include other country information as needed -->
+</body>
